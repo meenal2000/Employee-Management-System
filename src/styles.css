@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 0.5rem 0 0.25rem;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 0.5rem;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Add Contact Method Styles */
+  .add-contact-method {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-contact-method select, .add-contact-method input {
+    flex: 1;
+  }
+  
+  .add-contact-method button {
+    margin-left: 0.5rem;
+    background-color: #dc3545;
+  }
+  
+  .add-contact-method button:hover {
+    background-color: #c82333;
+  }
+  
